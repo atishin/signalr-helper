@@ -1,4 +1,4 @@
-package mad.tishin.anton.signalrtest.SignalRService;
+package com.tishinanton.signalrhelper;
 
 import android.util.Log;
 

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SignalRTest.iml" filepath="$PROJECT_DIR$/SignalRTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signalrhelper/signalrhelper.iml" filepath="$PROJECT_DIR$/signalrhelper/signalrhelper.iml" />
     </modules>
   </component>
 </project>

@@ -1,35 +1,20 @@
 package mad.tishin.anton.signalrtest;
 
-import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.google.gson.JsonElement;
+import com.tishinanton.signalrhelper.SignalRServiceHelper;
 
 import java.util.ArrayList;
-import java.util.concurrent.ExecutionException;
 
 import mad.tishin.anton.signalrtest.Model.ChatMessage;
-import mad.tishin.anton.signalrtest.SignalRService.SignalRServiceHelper;
 import microsoft.aspnet.signalr.client.Action;
-import microsoft.aspnet.signalr.client.ConnectionState;
-import microsoft.aspnet.signalr.client.ErrorCallback;
-import microsoft.aspnet.signalr.client.LogLevel;
-import microsoft.aspnet.signalr.client.Logger;
-import microsoft.aspnet.signalr.client.Platform;
-import microsoft.aspnet.signalr.client.StateChangedCallback;
-import microsoft.aspnet.signalr.client.http.android.AndroidPlatformComponent;
-import microsoft.aspnet.signalr.client.hubs.HubConnection;
-import microsoft.aspnet.signalr.client.hubs.HubProxy;
-import microsoft.aspnet.signalr.client.transport.AutomaticTransport;
-import microsoft.aspnet.signalr.client.transport.LongPollingTransport;
 
 public class MainActivity extends AppCompatActivity {
 
